@@ -1,0 +1,33 @@
+body {
+  background: url(https://static.wixstatic.com/media/6b8ff6_10fb8a85ee3e478b8a122e100ab9e36b.jpg/v1/fill/w_1920,h_1044,al_t,q_85/6b8ff6_10fb8a85ee3e478b8a122e100ab9e36b.webp);
+  background-size: cover;
+}
+
+.wix {
+  margin-left: 246px;
+}
+
+.font_1 {
+  margin-top: 22px;
+  font-family: helvetica,sans-serif;
+  font-size: 52px;
+  font-weight: lighter;
+  color: rgba(54,54,54,1);
+  margin-left: 246px;
+}
+
+.font_2 {
+  font-family: helvetica,sans-serif;
+  font-size: 52px;
+  color: rgba(54,54,54,1);
+  margin-left: 246px;
+  font-weight: lighter;
+  margin-top: -35px;
+}
+
+.font_5 {
+    font: normal normal normal 20px/1.4em helveticaneuew10-45ligh,sans-serif;
+    color: rgba(54,54,54,1);
+    margin-left: 246px;
+    margin-top: -30px;
+}
