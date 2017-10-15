@@ -6,13 +6,17 @@ import './app.css'
 
 import App from 'containers/App/App'
 
-import {hashHistory} from 'react-router'
+import {browserHistory} from 'react-router'
 import makeRoutes from './routes'
 
-const routes = makeRoutes()
+const Home = React.createClass({
+  render: function() {
+    return (<div>Hello world</div>)
+  }
+})
+const routes =makeRoutes()
 
 const mountNode = document.querySelector('#root');
 ReactDOM.render(
-  <App history={hashHistory}
-        routes={routes} />,
-mountNode);
+  <App history={browserHistory}
+    routes={routes} />, mountNode);
