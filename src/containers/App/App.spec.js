@@ -1,13 +1,13 @@
-// import React from 'react'
+import React from 'react'
 import { expect } from 'chai'
 import { shallow } from 'enzyme'
 
 import App from './App'
-// import styles from './styles.module.css'
+import styles from './styles.module.css'
 
 describe('<App />', () => {
   let wrapper;
-  // let history = {};
+  let history = {};
   beforeEach(() => {
     wrapper = shallow(<App />);
   })
@@ -17,11 +17,11 @@ describe('<App />', () => {
       .to.have.length(1);
   })
 
-  // it('passes a history prop', () => {
-  //   const props = wrapper.find('Router').props();
-  //
-  //   expect(props.history)
-  //     .to.be.defined;
-  // })
+  it('passes a history prop', () => {
+    const props = wrapper.find('Router').props();
+
+    expect(props.history)
+      .to.be.defined;
+  })
 
 })

@@ -3,7 +3,6 @@ import { expect } from 'chai'
 import { shallow } from 'enzyme'
 
 import Header from './Header'
-import styles from './styles.module.css'
 
 describe('<Header />', () => {
   let wrapper;
@@ -13,7 +12,7 @@ describe('<Header />', () => {
 
   it('contains a title component with yelp', () => {
     expect(wrapper.find('h1').first().text())
-        .to.equal('yelp')
+        .to.equal('Yelp')
   });
 
   it('contains topbar styling', () => {
