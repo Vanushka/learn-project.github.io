@@ -14,7 +14,7 @@ const Home = React.createClass({
     return (<div>Hello world</div>)
   }
 })
-const routes =makeRoutes()
+const routes = makeRoutes()
 
 const mountNode = document.querySelector('#root');
 ReactDOM.render(

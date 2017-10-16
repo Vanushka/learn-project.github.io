@@ -11,8 +11,9 @@ class App extends React.Component {
   get content() {
     return (<Router
         routes={this.props.routes}
-        history={this.props.history} />)
-  }
+        history={this.props.history} />
+      )
+    }
 
   render() {
     return (

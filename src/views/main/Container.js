@@ -36,9 +36,10 @@ export class Container extends React.Component {
        <Map
          google={this.props.google}
          onReady={this.onReady.bind(this)}
-         visible={false}>
+         visible={false}
+         clickableIcons={false}>
 
-         {this.state.place.map(place => {
+         {this.state.places.map(place => {
            return (<div key={place.id}>{place.name}</div>)
          })}
 
