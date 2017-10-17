@@ -21,8 +21,10 @@ describe('<Listing />', () => {
     expect(wrapper.find(`.${styles.container}`))
       .to.be.defined;
   })
+
   it('has an item for each place in the places prop', () => {
     expect(wrapper.find('Item').length)
       .to.equal(places.length);
   })
+
 })
